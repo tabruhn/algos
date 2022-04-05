@@ -1,0 +1,32 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "description": "Algorithms 4 phun",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:all": "jest --watchAll",
+    "lint": "standard"
+  },
+  "keywords": [
+    "algos"
+  ],
+  "author": "Tyson",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-light-runner": "^0.1.0",
+    "standard": "^16.0.4"
+  },
+  "type": "module",
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "engines": {
+    "node": "^17.0.0"
+  },
+  "jest": {
+    "verbose": true,
+    "runner": "jest-light-runner"
+  }
+}
